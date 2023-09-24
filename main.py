@@ -36,7 +36,7 @@ def drticka(dama:int):
         image_counter += 1
         image_name = f'chessboard_{image_counter}.png'
         chessboard.save(image_name)
-        chessboard.show()
+        # chessboard.show()
         for i in range(8):
             for j in range(8):
                 x0 = i * square_size
